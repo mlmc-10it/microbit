@@ -1,7 +1,7 @@
 # microbit
 Tasks for learning physical computing with the microbit
 MicroBit <br>
-![Microbit](https://az742082.vo.msecnd.net/pub/jcjojcrc)
+<img src="https://az742082.vo.msecnd.net/pub/jcjojcrc" width="150" height="150">
 
 # The Compass
 Note that the magnetometer needs to be calibrated before use. This is done by tipping the micro:bit around to draw a circle on the LEDs. Be aware that sometimes the magnetometer calibration can be affected by the magnetic fields emanating from an electronic device, such as a computer.
@@ -10,7 +10,7 @@ Follow the instructions on this page to learn about the magnetometer, - http://m
 
 # Challenge
 Make your microbit display the letters "N', "E", "S" and "W" when the microbit is pointing North, East, South and West respectively.<br>
-![north](north.png)
+<img src="north.png" width="200" height="200">
 
 ## Starter code ##
     from microbit import *
