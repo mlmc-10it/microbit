@@ -19,8 +19,12 @@ Make your microbit display the letters "N', "E", "S" and "W" when the microbit i
 
     while True:
     sleep(100)
+    #put the compass reading into a variable
     val = compass.heading()
-    if (val < 10 or val > 350):
+    
+    #check the value of the variable against known
+    #values for N, S, E and W and display appropriate image
+    if (val .......... ):
       display.show('N')
     else:
       display.show(Image.NO)
