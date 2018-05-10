@@ -11,3 +11,16 @@ Follow the instructions on this page to learn about the magnetometer, - http://m
 # Challenge
 Make your microbit display the letters "N', "E", "S" and "W" when the microbit is pointing North, East, South and West respectively.<br>
 ![north](north.png)
+
+## Starter code ##
+    from microbit import *
+
+    compass.calibrate()
+
+    while True:
+    sleep(100)
+    val = compass.heading()
+    if (val < 10 or val > 350):
+      display.show('N')
+    else:
+      display.show(Image.NO)
