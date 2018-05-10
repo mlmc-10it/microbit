@@ -9,5 +9,5 @@ Note that the magnetometer needs to be calibrated before use. This is done by ti
 Follow the instructions on this page to learn about the magnetometer, - http://microbit-challenges.readthedocs.io/en/latest/tutorials/compass.html 
 
 # Challenge
-Make your microbit display the letters "N', "E", "S" and "W" when the microbit is pointing North, East, South and West respectively.
-
+Make your microbit display the letters "N', "E", "S" and "W" when the microbit is pointing North, East, South and West respectively.<br>
+![north](north.png)
